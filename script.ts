@@ -108,7 +108,7 @@ output.disabled = true;
 btn.addEventListener("click", function(){
     SelectedFunction =  options.value;
 
-    if(SelectedFunction === "Filter"){                        // Checks user input
+    if(SelectedFunction === "Filter"){                        // Checks users input
     
     Desc.classList.add("mb-3", "text-secondary");
     Desc.innerText = "Filter out the user with active:true"
